@@ -1,0 +1,468 @@
+
+[!] ⚠️   No known key was supplied, key recovery might fail
+[+] loaded 5 user keys
+[+] loaded 61 hardcoded keys
+[=] Running strategy 1
+[=] .....
+[=] Running strategy 2
+[=] .....
+[+] Target sector   0 key type A -- found valid key [ A0A1A2A3A4A5 ] (used for nested / hardnested attack)
+
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]          |         |                                                         | Expected to brute force
+[=]  Time    | #nonces | Activity                                                | #states         | time
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]        0 |       0 | Start using 12 threads and AVX2 SIMD core               |                 |
+[=]        0 |       0 | Brute force benchmark: 1527 million (2^30.5) keys/s     | 140737488355328 |   26h
+[=]        0 |       0 | Loaded 0 RAW / 351 LZ4 / 0 BZ2 in  500 ms               | 140737488355328 |   26h
+[=]        0 |       0 | Using 239 precalculated bitflip state tables            | 140737488355328 |   26h
+[=]        3 |     112 | Apply bit flip properties                               |    119067402240 |   78s
+[=]        4 |     224 | Apply bit flip properties                               |     41923891200 |   27s
+[=]        5 |     335 | Apply bit flip properties                               |     31650789376 |   21s
+[=]        6 |     447 | Apply bit flip properties                               |     31650789376 |   21s
+[=]        6 |     559 | Apply bit flip properties                               |     31650789376 |   21s
+[=]        7 |     671 | Apply bit flip properties                               |     31650789376 |   21s
+[=]        8 |     783 | Apply bit flip properties                               |     31650789376 |   21s
+[=]        9 |     893 | Apply bit flip properties                               |     31650789376 |   21s
+[=]       10 |    1004 | Apply bit flip properties                               |     31650789376 |   21s
+[=]       11 |    1112 | Apply bit flip properties                               |     31650789376 |   21s
+[=]       12 |    1222 | Apply Sum property. Sum(a0) = 160                       |      1072617792 |    1s
+[=]       12 |    1333 | Apply bit flip properties                               |      1917108736 |    1s
+[=]       13 |    1442 | Apply bit flip properties                               |      1917108736 |    1s
+[=]       14 |    1553 | Apply bit flip properties                               |      2099412992 |    1s
+[=]       15 |    1663 | Apply bit flip properties                               |      1239027328 |    1s
+[=]       16 |    1663 | (1. guess: Sum(a8) = 256)                               |      1239027328 |    1s
+[=]       16 |    1663 | Apply Sum(a8) and all bytes bitflip properties          |      1229591808 |    1s
+[=]       16 |    1663 | Brute force phase completed.  Key found: 3B7CB68BD551 |               0 |    0s
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[+] Target sector   0 key type B -- found valid key [ 3B7CB68BD551 ]
+
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]          |         |                                                         | Expected to brute force
+[=]  Time    | #nonces | Activity                                                | #states         | time
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]        0 |       0 | Start using 12 threads and AVX2 SIMD core               |                 |
+[=]        0 |       0 | Brute force benchmark: 1548 million (2^30.5) keys/s     | 140737488355328 |   25h
+[=]        0 |       0 | Loaded 0 RAW / 351 LZ4 / 0 BZ2 in  362 ms               | 140737488355328 |   25h
+[=]        0 |       0 | Using 239 precalculated bitflip state tables            | 140737488355328 |   25h
+[=]        3 |     112 | Apply bit flip properties                               |     87610712064 |   57s
+[=]        4 |     224 | Apply bit flip properties                               |      6458078720 |    4s
+[=]        5 |     334 | Apply bit flip properties                               |      4115790592 |    3s
+[=]        5 |     446 | Apply bit flip properties                               |      4115790592 |    3s
+[=]        6 |     556 | Apply bit flip properties                               |      4115790592 |    3s
+[=]        7 |     664 | Apply bit flip properties                               |      4115790592 |    3s
+[=]        8 |     776 | Apply bit flip properties                               |      4115790592 |    3s
+[=]        9 |     886 | Apply bit flip properties                               |      4115790592 |    3s
+[=]        9 |     996 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       10 |    1106 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       11 |    1218 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       12 |    1329 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       13 |    1437 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       14 |    1548 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       15 |    1660 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       16 |    1771 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       16 |    1881 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       17 |    1989 | Apply bit flip properties                               |      4115790592 |    3s
+[=]       19 |    2099 | Apply Sum property. Sum(a0) = 128                       |       595885312 |    0s
+[=]       19 |    2099 | (Ignoring Sum(a8) properties)                           |       595885312 |    0s
+[=]       21 |    2099 | Brute force phase completed.  Key found: 3CBC62AEBC4E |               0 |    0s
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[+] Target sector   1 key type A -- found valid key [ 3CBC62AEBC4E ]
+
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]          |         |                                                         | Expected to brute force
+[=]  Time    | #nonces | Activity                                                | #states         | time
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]        0 |       0 | Start using 12 threads and AVX2 SIMD core               |                 |
+[=]        0 |       0 | Brute force benchmark: 1490 million (2^30.5) keys/s     | 140737488355328 |   26h
+[=]        0 |       0 | Loaded 0 RAW / 351 LZ4 / 0 BZ2 in  356 ms               | 140737488355328 |   26h
+[=]        0 |       0 | Using 239 precalculated bitflip state tables            | 140737488355328 |   26h
+[=]        3 |     112 | Apply bit flip properties                               |    174050476032 |  2min
+[=]        4 |     223 | Apply bit flip properties                               |     49033113600 |   33s
+[=]        5 |     335 | Apply bit flip properties                               |     21372803072 |   14s
+[=]        5 |     447 | Apply bit flip properties                               |     21372803072 |   14s
+[=]        6 |     558 | Apply bit flip properties                               |     19958798336 |   13s
+[=]        7 |     670 | Apply bit flip properties                               |     19958798336 |   13s
+[=]        8 |     781 | Apply bit flip properties                               |     19958798336 |   13s
+[=]        9 |     891 | Apply bit flip properties                               |     19958798336 |   13s
+[=]        9 |    1001 | Apply bit flip properties                               |     19958798336 |   13s
+[=]       10 |    1110 | Apply bit flip properties                               |     19958798336 |   13s
+[=]       11 |    1221 | Apply bit flip properties                               |     19958798336 |   13s
+[=]       13 |    1330 | Apply Sum property. Sum(a0) = 128                       |      1629084544 |    1s
+[=]       13 |    1441 | Apply bit flip properties                               |      1629084544 |    1s
+[=]       14 |    1547 | Apply bit flip properties                               |      2699014912 |    2s
+[=]       15 |    1659 | Apply bit flip properties                               |      2699014912 |    2s
+[=]       16 |    1771 | Apply bit flip properties                               |      2699014912 |    2s
+[=]       17 |    1881 | Apply bit flip properties                               |      2699014912 |    2s
+[=]       17 |    1881 | (Ignoring Sum(a8) properties)                           |      2699014912 |    2s
+[=]       23 |    1881 | Brute force phase completed.  Key found: 9A42CB5BFD8C |               0 |    0s
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[+] Target sector   1 key type B -- found valid key [ 9A42CB5BFD8C ]
+
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]          |         |                                                         | Expected to brute force
+[=]  Time    | #nonces | Activity                                                | #states         | time
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]        0 |       0 | Start using 12 threads and AVX2 SIMD core               |                 |
+[=]        0 |       0 | Brute force benchmark: 1479 million (2^30.5) keys/s     | 140737488355328 |   26h
+[=]        0 |       0 | Loaded 0 RAW / 351 LZ4 / 0 BZ2 in  360 ms               | 140737488355328 |   26h
+[=]        0 |       0 | Using 239 precalculated bitflip state tables            | 140737488355328 |   26h
+[=]        3 |     112 | Apply bit flip properties                               |     94431748096 |   64s
+[=]        4 |     224 | Apply bit flip properties                               |     28627392512 |   19s
+[=]        4 |     336 | Apply bit flip properties                               |     21914314752 |   15s
+[=]        5 |     447 | Apply bit flip properties                               |     17623828480 |   12s
+[=]        6 |     559 | Apply bit flip properties                               |     17623828480 |   12s
+[=]        7 |     669 | Apply bit flip properties                               |     16899800064 |   11s
+[=]        8 |     779 | Apply bit flip properties                               |     16534088704 |   11s
+[=]        9 |     888 | Apply bit flip properties                               |     16534088704 |   11s
+[=]        9 |     997 | Apply bit flip properties                               |     16534088704 |   11s
+[=]       10 |    1109 | Apply bit flip properties                               |     16534088704 |   11s
+[=]       11 |    1220 | Apply bit flip properties                               |     16534088704 |   11s
+[=]       12 |    1331 | Apply bit flip properties                               |     16534088704 |   11s
+[=]       14 |    1442 | Apply Sum property. Sum(a0) = 128                       |      1398065920 |    1s
+[=]       14 |    1552 | Apply bit flip properties                               |      1325680000 |    1s
+[=]       15 |    1663 | Apply bit flip properties                               |      1003412032 |    1s
+[=]       16 |    1773 | Apply bit flip properties                               |      1003412032 |    1s
+[=]       16 |    1773 | (Ignoring Sum(a8) properties)                           |      1003412032 |    1s
+[=]       19 |    1773 | Brute force phase completed.  Key found: EF4929C57465 |               0 |    0s
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[+] Target sector   2 key type A -- found valid key [ EF4929C57465 ]
+[+] Target sector   3 key type A -- found valid key [ EF4929C57465 ]
+[+] Target sector   4 key type A -- found valid key [ EF4929C57465 ]
+
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]          |         |                                                         | Expected to brute force
+[=]  Time    | #nonces | Activity                                                | #states         | time
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]        0 |       0 | Start using 12 threads and AVX2 SIMD core               |                 |
+[=]        0 |       0 | Brute force benchmark: 1500 million (2^30.5) keys/s     | 140737488355328 |   26h
+[=]        0 |       0 | Loaded 0 RAW / 351 LZ4 / 0 BZ2 in  360 ms               | 140737488355328 |   26h
+[=]        0 |       0 | Using 239 precalculated bitflip state tables            | 140737488355328 |   26h
+[=]        3 |     112 | Apply bit flip properties                               |   1018386907136 | 11min
+[=]        4 |     223 | Apply bit flip properties                               |    520027930624 |  6min
+[=]        4 |     335 | Apply bit flip properties                               |    369804836864 |  4min
+[=]        5 |     445 | Apply bit flip properties                               |    369272356864 |  4min
+[=]        6 |     556 | Apply bit flip properties                               |    369272356864 |  4min
+[=]        7 |     667 | Apply bit flip properties                               |    369272356864 |  4min
+[=]        8 |     778 | Apply bit flip properties                               |    369272356864 |  4min
+[=]        9 |     888 | Apply bit flip properties                               |    369272356864 |  4min
+[=]        9 |     999 | Apply bit flip properties                               |    369272356864 |  4min
+[=]       10 |    1109 | Apply bit flip properties                               |    369272356864 |  4min
+[=]       12 |    1217 | Apply Sum property. Sum(a0) = 128                       |     31486179328 |   21s
+[=]       12 |    1325 | Apply bit flip properties                               |     53633122304 |   36s
+[=]       13 |    1434 | Apply bit flip properties                               |     53633122304 |   36s
+[=]       14 |    1543 | Apply bit flip properties                               |     41294065664 |   28s
+[=]       15 |    1649 | Apply bit flip properties                               |     41294065664 |   28s
+[=]       16 |    1758 | Apply bit flip properties                               |     41294065664 |   28s
+[=]       17 |    1867 | Apply bit flip properties                               |     24921147392 |   17s
+[=]       17 |    1977 | Apply bit flip properties                               |     24921147392 |   17s
+[=]       18 |    2084 | Apply bit flip properties                               |     24921147392 |   17s
+[=]       19 |    2192 | Apply bit flip properties                               |     43498967040 |   29s
+[=]       20 |    2304 | Apply bit flip properties                               |     40064524288 |   27s
+[=]       21 |    2416 | Apply bit flip properties                               |     40064524288 |   27s
+[=]       22 |    2525 | Apply bit flip properties                               |     23719981056 |   16s
+[=]       23 |    2633 | Apply bit flip properties                               |      9425602560 |    6s
+[=]       23 |    2741 | Apply bit flip properties                               |      6384066048 |    4s
+[=]       24 |    2847 | Apply bit flip properties                               |      6384066048 |    4s
+[=]       25 |    2954 | Apply bit flip properties                               |      6384066048 |    4s
+[=]       26 |    2954 | (1. guess: Sum(a8) = 0)                                 |      6384066048 |    4s
+[=]       27 |    2954 | Apply Sum(a8) and all bytes bitflip properties          |      4875592192 |    3s
+[=]       27 |    2954 | Brute force phase completed.  Key found: 7D3684997EFD |               0 |    0s
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[+] Target sector   2 key type B -- found valid key [ 7D3684997EFD ]
+[+] Target sector   3 key type B -- found valid key [ 7D3684997EFD ]
+[+] Target sector   4 key type B -- found valid key [ 7D3684997EFD ]
+
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]          |         |                                                         | Expected to brute force
+[=]  Time    | #nonces | Activity                                                | #states         | time
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]        0 |       0 | Start using 12 threads and AVX2 SIMD core               |                 |
+[=]        0 |       0 | Brute force benchmark: 1479 million (2^30.5) keys/s     | 140737488355328 |   26h
+[=]        0 |       0 | Loaded 0 RAW / 351 LZ4 / 0 BZ2 in  381 ms               | 140737488355328 |   26h
+[=]        0 |       0 | Using 239 precalculated bitflip state tables            | 140737488355328 |   26h
+[=]        3 |     112 | Apply bit flip properties                               |    155077672960 |  2min
+[=]        4 |     224 | Apply bit flip properties                               |     28539363328 |   19s
+[=]        5 |     334 | Apply bit flip properties                               |     27998490624 |   19s
+[=]        5 |     446 | Apply bit flip properties                               |     24165890048 |   16s
+[=]        6 |     556 | Apply bit flip properties                               |     24165890048 |   16s
+[=]        7 |     668 | Apply bit flip properties                               |     24165890048 |   16s
+[=]        8 |     778 | Apply bit flip properties                               |     24165890048 |   16s
+[=]        9 |     890 | Apply bit flip properties                               |     24165890048 |   16s
+[=]        9 |    1001 | Apply bit flip properties                               |     24165890048 |   16s
+[=]       10 |    1110 | Apply bit flip properties                               |     24165890048 |   16s
+[=]       11 |    1220 | Apply bit flip properties                               |     24165890048 |   16s
+[=]       12 |    1330 | Apply bit flip properties                               |     24165890048 |   16s
+[=]       14 |    1439 | Apply Sum property. Sum(a0) = 128                       |      1952888192 |    1s
+[=]       14 |    1549 | Apply bit flip properties                               |      1755651712 |    1s
+[=]       15 |    1658 | Apply bit flip properties                               |      1771796480 |    1s
+[=]       16 |    1768 | Apply bit flip properties                               |      1008591744 |    1s
+[=]       16 |    1768 | (1. guess: Sum(a8) = 256)                               |      1008591744 |    1s
+[=]       17 |    1768 | Apply Sum(a8) and all bytes bitflip properties          |       946479360 |    1s
+[=]       17 |    1768 | Brute force phase completed.  Key found: 0AEF2DDE4083 |               0 |    0s
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[+] Target sector   5 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector   6 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector   7 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector   8 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector   9 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector  10 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector  11 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector  12 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector  13 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector  14 key type A -- found valid key [ 0AEF2DDE4083 ]
+[+] Target sector  15 key type A -- found valid key [ 0AEF2DDE4083 ]
+
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]          |         |                                                         | Expected to brute force
+[=]  Time    | #nonces | Activity                                                | #states         | time
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[=]        0 |       0 | Start using 12 threads and AVX2 SIMD core               |                 |
+[=]        0 |       0 | Brute force benchmark: 1560 million (2^30.5) keys/s     | 140737488355328 |   25h
+[=]        0 |       0 | Loaded 0 RAW / 351 LZ4 / 0 BZ2 in  359 ms               | 140737488355328 |   25h
+[=]        0 |       0 | Using 239 precalculated bitflip state tables            | 140737488355328 |   25h
+[=]        3 |     112 | Apply bit flip properties                               |    537962119168 |  6min
+[=]        4 |     224 | Apply bit flip properties                               |    302781956096 |  3min
+[=]        5 |     335 | Apply bit flip properties                               |    299530649600 |  3min
+[=]        5 |     446 | Apply bit flip properties                               |    299530649600 |  3min
+[=]        6 |     557 | Apply bit flip properties                               |    299530649600 |  3min
+[=]        7 |     667 | Apply bit flip properties                               |    299530649600 |  3min
+[=]        8 |     778 | Apply bit flip properties                               |    299530649600 |  3min
+[=]        8 |     886 | Apply bit flip properties                               |    299530649600 |  3min
+[=]        9 |     998 | Apply bit flip properties                               |    299530649600 |  3min
+[=]       10 |    1107 | Apply bit flip properties                               |    299530649600 |  3min
+[=]       11 |    1219 | Apply bit flip properties                               |    299530649600 |  3min
+[=]       12 |    1330 | Apply bit flip properties                               |    299530649600 |  3min
+[=]       13 |    1437 | Apply bit flip properties                               |    299530649600 |  3min
+[=]       14 |    1546 | Apply bit flip properties                               |    299530649600 |  3min
+[=]       15 |    1656 | Apply bit flip properties                               |    299530649600 |  3min
+[=]       16 |    1765 | Apply Sum property. Sum(a0) = 160                       |     15607727104 |   10s
+[=]       17 |    1875 | Apply bit flip properties                               |     11549904896 |    7s
+[=]       17 |    1984 | Apply bit flip properties                               |     18481405952 |   12s
+[=]       18 |    2093 | Apply bit flip properties                               |     18481405952 |   12s
+[=]       19 |    2201 | Apply bit flip properties                               |     18481405952 |   12s
+[=]       20 |    2310 | Apply bit flip properties                               |     18481405952 |   12s
+[=]       21 |    2310 | (1. guess: Sum(a8) = 0)                                 |     18481405952 |   12s
+[=]       21 |    2310 | Apply Sum(a8) and all bytes bitflip properties          |     18481367040 |   12s
+[=]       21 |    2310 | (2. guess: Sum(a8) = 64)                                |     51592994816 |   33s
+[=]       21 |    2310 | Apply Sum(a8) and all bytes bitflip properties          |     51137605632 |   33s
+[=]       22 |    2310 | (3. guess: Sum(a8) = 32)                                |     79194087424 |   51s
+[=]       22 |    2310 | Apply Sum(a8) and all bytes bitflip properties          |     77880967168 |   50s
+[=]       22 |    2310 | Brute force phase completed.  Key found: 6CC0A3237C5B |               0 |    0s
+[=] ---------+---------+---------------------------------------------------------+-----------------+-------
+[+] Target sector   5 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector   6 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector   7 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector   8 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector   9 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector  10 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector  11 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector  12 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector  13 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector  14 key type B -- found valid key [ 6CC0A3237C5B ]
+[+] Target sector  15 key type B -- found valid key [ 6CC0A3237C5B ]
+
+[+] -----+-----+--------------+---+--------------+----
+[+]  Sec | Blk | key A        |res| key B        |res
+[+] -----+-----+--------------+---+--------------+----
+[+]  000 | 003 | A0A1A2A3A4A5 | D | 3B7CB68BD551 | H
+[+]  001 | 007 | 3CBC62AEBC4E | H | 9A42CB5BFD8C | H
+[+]  002 | 011 | EF4929C57465 | H | 7D3684997EFD | H
+[+]  003 | 015 | EF4929C57465 | R | 7D3684997EFD | R
+[+]  004 | 019 | EF4929C57465 | R | 7D3684997EFD | R
+[+]  005 | 023 | 0AEF2DDE4083 | H | 6CC0A3237C5B | H
+[+]  006 | 027 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  007 | 031 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  008 | 035 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  009 | 039 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  010 | 043 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  011 | 047 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  012 | 051 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  013 | 055 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  014 | 059 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+]  015 | 063 | 0AEF2DDE4083 | R | 6CC0A3237C5B | R
+[+] -----+-----+--------------+---+--------------+----
+[=] ( D:Dictionary / S:darkSide / U:User / R:Reused / N:Nested / H:Hardnested / C:statiCnested / A:keyA  )
+[?] Hint: MAD key detected. Try `hf mf mad` for more details
+
+
+[+] Generating binary key file
+[+] Found keys have been dumped to `/home/seb/Music/mdm/dumps/hf-mf-16B74D84-key-006.bin`
+[=] --[ FFFFFFFFFFFF ]-- has been inserted for unknown keys where res is 0
+[=] Transferring keys to simulator memory ( ok )
+[=] Dumping card content to emulator memory (Cmd Error: 04 can occur)
+[=] downloading card content from emulator memory
+[+] Saved 1024 bytes to binary file `/home/seb/Music/mdm/dumps/hf-mf-16B74D84-dump-022.bin`
+[+] Saved to json file /home/seb/Music/mdm/dumps/hf-mf-16B74D84-dump-022.json
+[=] Autopwn execution time: 184 seconds
+[usb] pm3 --> hf mf dump --keys dumps/hf-mf-16B74D84-key-006.bin
+[-] ⛔ Error - can't find `dumps/hf-mf-16B74D84-key-006.bin`
+[usb] pm3 --> hf mf dump --keys hf-mf-16B74D84-key-006.bin
+[+] Loaded binary key file `/home/seb/Music/mdm/dumps/hf-mf-16B74D84-key-006.bin`
+[=] Reading sector access bits...
+[=] .................
+[+] Finished reading sector access bits
+[=] Dumping all blocks from card...
+ 🕗 Sector... 15 block... 3 ( ok )
+[+] Succeeded in dumping all blocks
+
+[+] time: 9 seconds
+
+
+[=] -----+-----+-------------------------------------------------+-----------------
+[=]  sec | blk | data                                            | ascii
+[=] -----+-----+-------------------------------------------------+-----------------
+[=]    0 |   0 | 16 B7 4D 84 68 98 02 00 E3 25 00 20 00 00 00 19 | ..M.h....%. ....
+[=]      |   1 | CE 00 10 58 11 58 12 58 13 58 00 00 00 00 00 00 | ...X.X.X.X......
+[=]      |   2 | 00 00 00 00 00 00 00 00 00 00 00 00 02 00 02 00 | ................
+[=]      |   3 | A0 A1 A2 A3 A4 A5 69 67 89 C2 3B 7C B6 8B D5 51 | ......ig..;|...Q
+[=]    1 |   4 | 6A 67 30 36 31 34 6B 00 00 00 00 00 00 00 00 00 | jg0614k.........
+[=]      |   5 | 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | 01..............
+[=]      |   6 | FD 4D 6E 01 00 00 00 00 00 00 00 00 00 00 00 00 | .Mn.............
+[=]      |   7 | 3C BC 62 AE BC 4E 78 77 88 69 9A 42 CB 5B FD 8C | <.b..Nxw.i.B.[..
+[=]    2 |   8 | 41 4A 43 33 38 33 00 00 00 00 00 00 00 00 00 00 | AJC383..........
+[=]      |   9 | 33 30 36 36 37 32 33 32 39 00 00 00 00 00 00 00 | 306672329.......
+[=]      |  10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  11 | EF 49 29 C5 74 65 78 77 88 69 7D 36 84 99 7E FD | .I).texw.i}6..~.
+[=]    3 |  12 | 32 30 32 37 2F 30 39 2F 30 31 00 00 00 00 00 00 | 2027/09/01......
+[=]      |  13 | 32 30 32 34 2F 30 38 2F 32 39 00 00 00 00 00 00 | 2024/08/29......
+[=]      |  14 | 56 59 50 42 47 00 00 00 00 00 00 00 00 00 00 00 | VYPBG...........
+[=]      |  15 | EF 49 29 C5 74 65 78 77 88 69 7D 36 84 99 7E FD | .I).texw.i}6..~.
+[=]    4 |  16 | 6A 67 30 36 31 34 6B 00 00 00 00 00 00 00 00 00 | jg0614k.........
+[=]      |  17 | 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | 01..............
+[=]      |  18 | FD 4D 6E 01 00 00 00 00 00 00 00 00 00 00 00 00 | .Mn.............
+[=]      |  19 | EF 49 29 C5 74 65 78 77 88 69 7D 36 84 99 7E FD | .I).texw.i}6..~.
+[=]    5 |  20 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  21 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  22 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  23 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    6 |  24 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  25 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  26 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  27 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    7 |  28 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  29 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  30 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  31 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    8 |  32 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  33 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  34 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  35 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    9 |  36 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  37 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  38 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  39 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   10 |  40 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  41 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  42 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  43 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   11 |  44 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  45 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  46 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  47 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   12 |  48 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  49 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  50 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  51 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   13 |  52 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  53 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  54 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  55 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   14 |  56 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  57 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  58 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  59 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   15 |  60 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  61 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  62 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  63 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=] -----+-----+-------------------------------------------------+-----------------
+[?] Hint: MAD key detected. Try `hf mf mad` for more details
+
+[+] Saved 1024 bytes to binary file `/home/seb/Music/mdm/dumps/hf-mf-16B74D84-dump-023.bin`
+[+] Saved to json file /home/seb/Music/mdm/dumps/hf-mf-16B74D84-dump-023.json
+[usb] pm3 --> hf mf dump --keys hf-mf-16B74D84-key-006.bin
+[+] Loaded binary key file `/home/seb/Music/mdm/dumps/hf-mf-16B74D84-key-006.bin`
+[=] Reading sector access bits...
+[=] .................
+[+] Finished reading sector access bits
+[=] Dumping all blocks from card...
+ 🕛 Sector... 15 block... 3 ( ok )
+[+] Succeeded in dumping all blocks
+
+[+] time: 9 seconds
+
+
+[=] -----+-----+-------------------------------------------------+-----------------
+[=]  sec | blk | data                                            | ascii
+[=] -----+-----+-------------------------------------------------+-----------------
+[=]    0 |   0 | A0 EB E7 97 3B 98 02 00 E3 06 00 20 00 00 00 23 | ....;...... ...#
+[=]      |   1 | CE 00 10 58 11 58 12 58 13 58 00 00 00 00 00 00 | ...X.X.X.X......
+[=]      |   2 | 00 00 00 00 00 00 00 00 00 00 00 00 02 00 02 00 | ................
+[=]      |   3 | A0 A1 A2 A3 A4 A5 69 67 89 C2 3B 7C B6 8B D5 51 | ......ig..;|...Q
+[=]    1 |   4 | 6D 64 37 37 31 32 72 00 00 00 00 00 00 00 00 00 | md7712r.........
+[=]      |   5 | 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | 01..............
+[=]      |   6 | 21 D4 E1 01 00 00 00 00 00 00 00 00 00 00 00 00 | !...............
+[=]      |   7 | 3C BC 62 AE BC 4E 78 77 88 69 9A 42 CB 5B FD 8C | <.b..Nxw.i.B.[..
+[=]    2 |   8 | 59 48 45 43 32 00 00 00 00 00 00 00 00 00 00 00 | YHEC2...........
+[=]      |   9 | 33 30 36 36 36 31 34 31 35 00 00 00 00 00 00 00 | 306661415.......
+[=]      |  10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  11 | EF 49 29 C5 74 65 78 77 88 69 7D 36 84 99 7E FD | .I).texw.i}6..~.
+[=]    3 |  12 | 32 30 32 37 2F 30 39 2F 30 31 00 00 00 00 00 00 | 2027/09/01......
+[=]      |  13 | 32 30 32 34 2F 30 39 2F 31 30 00 00 00 00 00 00 | 2024/09/10......
+[=]      |  14 | 56 59 50 50 42 00 00 00 00 00 00 00 00 00 00 00 | VYPPB...........
+[=]      |  15 | EF 49 29 C5 74 65 78 77 88 69 7D 36 84 99 7E FD | .I).texw.i}6..~.
+[=]    4 |  16 | 6D 64 37 37 31 32 72 00 00 00 00 00 00 00 00 00 | md7712r.........
+[=]      |  17 | 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | 01..............
+[=]      |  18 | 21 D4 E1 01 00 00 00 00 00 00 00 00 00 00 00 00 | !...............
+[=]      |  19 | EF 49 29 C5 74 65 78 77 88 69 7D 36 84 99 7E FD | .I).texw.i}6..~.
+[=]    5 |  20 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  21 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  22 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  23 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    6 |  24 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  25 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  26 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  27 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    7 |  28 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  29 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  30 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  31 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    8 |  32 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  33 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  34 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  35 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]    9 |  36 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  37 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  38 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  39 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   10 |  40 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  41 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  42 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  43 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   11 |  44 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  45 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  46 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  47 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   12 |  48 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  49 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  50 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  51 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   13 |  52 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  53 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  54 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  55 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   14 |  56 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  57 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  58 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  59 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=]   15 |  60 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  61 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  62 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+[=]      |  63 | 0A EF 2D DE 40 83 78 77 88 FF 6C C0 A3 23 7C 5B | ..-.@.xw..l..#|[
+[=] -----+-----+-------------------------------------------------+-----------------
+[?] Hint: MAD key detected. Try `hf mf mad` for more details
+
+[+] Saved 1024 bytes to binary file `/home/seb/Music/mdm/dumps/hf-mf-A0EBE797-dump.bin`
+[+] Saved to json file /home/seb/Music/mdm/dumps/hf-mf-A0EBE797-dump.json
+[usb] pm3 -->
