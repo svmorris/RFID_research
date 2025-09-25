@@ -1,1 +1,1 @@
-The purpose of this repo is just for me to store notes and data and card dumps. It should not be useful to anyone else
+The purpose of this repo is just for me to store notes and data and card dumps. Its public because its not sensitive and it makes it easier for me to share files. It probably isn't interesting to you, but have fun reading anyway.
